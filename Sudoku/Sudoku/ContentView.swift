@@ -264,7 +264,6 @@ struct ContentView: View {
     func setAction(action: Actions) {
         currentAction = action
         setChoice(n: nil)
-        setTarget(i: nil, j: nil)
     }
     
     func setActionMaker(action: Actions) -> () -> () {
